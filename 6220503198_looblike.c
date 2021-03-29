@@ -16,6 +16,12 @@ int main()
             n[j]=n[j+1];
             n[j+1]=temp;
         }
+        ch[0]=n[0];
+        j=0;
+        for(i=1;i<a;i++)
+        {
+            if(n[i])
+        }
 
 
 
