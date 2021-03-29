@@ -3,6 +3,8 @@ int main()
 {
     int a,temp,i,j,max;
     int n[1001];
+    int ch[1001];
+    int s[1001];
     scanf("%d",&a);
     for(i=0;i<a;i++)
     {
@@ -20,8 +22,16 @@ int main()
         j=0;
         for(i=1;i<a;i++)
         {
-            if(n[i])
+            if(n[i]==n[j-1])
+            s[j]++;
+            else
+                {
+                    j++;
+                }
+
         }
+        max = s[i];
+
 
 
 
