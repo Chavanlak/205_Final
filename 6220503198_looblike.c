@@ -31,7 +31,13 @@ int main()
 
         }
         max = s[i];
-
+        for(i=1;i<=j;i++)
+            if(max<s[i]);
+            max=s[i];
+        for(i=0;i<=j;i++)
+            if(s[i]==max)
+            printf("%d",ch[i]);
+        return 0;
 
 
 

@@ -2,18 +2,20 @@
 int main()
 {
     int k,i,n,c;
-    scanf("%d",n);
+    scanf("%d",&k);
+    scanf("%d",&c);
      //for(j;j<=;j++)
-    for(i=k;k<=n;k++)
+    for(i=0;i<=k;i++)
     {
-        if(n%2==0)
+        if(n>0)
         {
             k=k%10;
-            k=k+1;
+
+            //k=k+1;
 
         }
         else
-        printf("%d",i);
+        printf("%d",i+1);
 
     }
 }
