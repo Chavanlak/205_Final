@@ -16,5 +16,21 @@ int main()
     int num ;
 
     for(num=2;row=0,col=s;num=max;num++)
-
+        if((col+1)<(size-1))
+    {
+        next_col =0;
+    }
+    else
+    {
+        next_col= col+1;
+    }
+    if((row-1)<0)
+    {
+        next_row = size-1;
+    }
+    else
+    {
+        next_row=row-1;
+    }
+    if()
 }
